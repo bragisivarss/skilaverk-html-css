@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kode-Mono", monospace;
+}
+
+body {
+  background-color: #f0fef9;
+}
+
+.bold {
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+header {
+  display: flex;
+  background-color: #072452;
+  color: aliceblue;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem 5rem;
+}
+
+.rob {
+  height: 20rem;
+  margin: 2rem 0;
+  background-color: #9dacc8;
+  padding: 10px;
+}
+
+.white {
+  color: white;
+  text-decoration: none;
+}
+
+.m-l {
+  margin-left: 2rem;
+  margin-right: 5px;
+}
+
+.m-b {
+  margin-bottom: 2rem;
+}
+
+.big-text {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.big {
+  font-size: 1.2rem;
+}
+
+.x-bold {
+  font-weight: 900;
+}
+
+.yellow {
+  padding: 0 3px;
+  background-color: #ffc95c;
+}
+
+.red {
+  padding-left: 3px;
+  background-color: #be2615;
+  color: #fff;
+}
+
+.container {
+  padding-bottom: 5rem;
+  border-bottom: 1px solid #616161;
+}
+
+.vw {
+  width: 50vw;
+}
+
+table {
+  width: 50vw;
+  padding: 0;
+}
+
+thead {
+  background-color: #afb9cd;
+}
+
+.w {
+  width: 100px;
+}
+
+th,
+td {
+  border-bottom: 1px solid #8c8c8c;
+}
+
+.m {
+  margin: 1rem 0;
+}
+
+.sm-m-l {
+  margin-left: 1.3rem;
+}
+
+.quote-container {
+  width: 25rem;
+  font-size: 1.5rem;
+  margin-left: 5rem;
+  padding: 0 1rem;
+}
+
+.quote {
+  font-size: 2.5rem;
+  color: rgb(179, 181, 204);
+  line-height: 0.8;
+}
+
+.mb {
+  margin-bottom: 2.5rem;
+}
+
+.left-quote {
+  border-left: solid 1rem #da4a91;
+}
+
+.right-quote {
+  text-align: right;
+  border-right: solid 1rem #da4a91;
+}
+
+.links {
+  font-size: 2rem;
+}
+
+.m-xl {
+  margin-left: 3rem;
+}
+
+.footer-text {
+  margin-bottom: 5rem;
+  height: 10rem;
+  margin-top: 1rem;
+  color: rgb(224, 237, 243);
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 900;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 40%,
+    rgb(224, 237, 243) 40%,
+    rgb(224, 237, 243) 100%
+  );
+}
+
+/* .footer {
+  width: 100%;
+  height: 25rem;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 10%,
+    hsla(211, 27%, 70%, 0.8) 10%,
+    hsla(211, 27%, 70%, 0.8) 70%,
+    transparent 70%,
+    transparent 100%
+  );
+} */
